@@ -5,3 +5,4 @@ slide.init(); */
 const slideNav = new SlideNav(".slide", ".slide-wrapper");
 slideNav.init();
 slideNav.addArrow(".previous", ".next");
+slideNav.addControl();
