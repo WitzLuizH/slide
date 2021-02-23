@@ -1,8 +1,8 @@
-import { SlideNav } from "./slide.js";
+import SlideNav from "./slide.js";
 
 /* const slide = new Slide(".slide", ".slide-wrapper");
 slide.init(); */
-const slideNav = new SlideNav(".slide", ".slide-wrapper");
-slideNav.init();
-slideNav.addArrow(".previous", ".next");
-slideNav.addControl();
+const slide = new SlideNav(".slide", ".slide-wrapper");
+slide.init();
+slide.addArrow(".previous", ".next");
+slide.addControl(".custom-controls");
